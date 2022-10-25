@@ -1,0 +1,22 @@
+Reactivity in Svelte
+*If you update a variable, it reflects onto the dom on your screen
+*We've seen how we can add dynamic data/define your data in the script tag and use them in your HTML templates
+*We're going to look at how we can update that data and then get it reflected onto the screen
+
+1. assignment
+    count = 10; 
+svelte knows that this is updating the variable 'count'
+
+2. update statements
+    count ++;
+    count += 2;
+svelte knows that you are updating this variable 'count'
+
+3. updating / assigning a property
+    let obj = {count : 0}
+    {obj.count}
+svelte sees that you're updating the property of an object
+
+Anyting outside of these 3, svelte will not know you're updating...for example
+1. const data = obj;
+    data.count ++;
