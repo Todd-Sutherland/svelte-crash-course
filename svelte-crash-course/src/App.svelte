@@ -11,19 +11,19 @@
 <!-- Only the elements within App.svelte will be affected by these style attributes -->
 <!-- When you add styles to elements, svelte will automatically add a special svelte class to those elements -->
 <style>
-    :global(h1) {
+    h1 {
         color: rebeccapurple;
         animation: zoom 5s infinite;
     }
 
-    :global(p) {
+    p {
         font-size: 44px;
     }
 
     .links {
         text-align: right;
     }
-    @keyframes -global-zoom {
+    @keyframes zoom {
         0%, 100% {transform: scale(3)}
         50% {transform: scale(0.5);}
     }
