@@ -8,7 +8,8 @@
 
 <!-- <Component /> -->
 <!-- <AddingData/> -->
-<Reactivity />
+<!-- <Reactivity /> -->
+<AttachingEvents />
 
 <!-- Only the elements within App.svelte will be affected by these style attributes -->
 <!-- When you add styles to elements, svelte will automatically add a special svelte class to those elements -->
@@ -36,4 +37,5 @@
     import Component from './Component.svelte'
     import AddingData from './AddingData.svelte';
     import Reactivity from './Reactivity.svelte';
+    import AttachingEvents from './AttachingEvents.svelte';
 </script>
