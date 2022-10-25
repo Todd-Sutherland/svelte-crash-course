@@ -8,6 +8,8 @@
 
 <Component />
 
+<AddingData/>
+
 <!-- Only the elements within App.svelte will be affected by these style attributes -->
 <!-- When you add styles to elements, svelte will automatically add a special svelte class to those elements -->
 <style>
@@ -32,4 +34,5 @@
 <script>
     let name = 'Todd'
     import Component from './Component.svelte'
+    import AddingData from './AddingData.svelte';
 </script>
